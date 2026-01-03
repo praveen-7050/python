@@ -13,6 +13,14 @@
 
 
 
-for(i=1;i<=5;i++){
-    console.log("* "*i)
+// for(i=1;i<=5;i++){
+//     console.log("* "*i)
+// }
+
+
+const aplha =  ["hari","marri","suganthi","kettvan","suresh"]
+
+for(i=0;i<=aplha.length;i++){
+    console.log(aplha[i])
 }
+
