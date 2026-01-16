@@ -41,3 +41,32 @@ names=("praveen","surya","tharun","vikram","praveen","kathir")
 
 print(names.count("praveen"))
 print(names.index("kathir"))
+
+tup_list = (1,2,3,[4,5])
+
+tup_list[3].append(6)
+print(tup_list)
+
+for item in tup_list: # loop through the tuple
+    if isinstance(item,list): #instance check the list type in tuple 
+        for i in item : # runs the list in tuple 
+             print(i) #print it 
+    else:
+        print(item)  # excetues the else block print the remaning tuple (i.e 1,2,3)
+
+try:
+    location_data={
+        (10,20):"location is A",
+        (30,40):"location is B"
+    }
+    print(location_data[(30,40)]) #use for caching and coordinate mapping 
+except Exception as e: 
+    print(f"there must be error please check it {e}")
+
+print("the location_data is fetched !")
+
+
+def find_duplicates(tuple_data):
+    return tuple(set([x for x in tuple_data if tuple_data.count(x)>1]))
+result = find_duplicates((1,2,2,3,4,5,4))
+print(result)
