@@ -39,6 +39,7 @@ for i,location in enumerate(mixed):
 
 
 a  = [1,2,3,4,5]
+
 b= a[:]
 print(b)
 c = a.copy()
