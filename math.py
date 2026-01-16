@@ -1,0 +1,11 @@
+import math
+x=min(1,2,3,4,4)
+print(x)
+y=math.sqrt(25)
+print(y)
+c = math.sqrt(15)
+print(c)
+print(math.floor(4.125))
+print(math.ceil(4.125))
+print(math.factorial(5))
+print(math.pow(3,3))
