@@ -1,0 +1,20 @@
+# Users Data
+1,Praveen,25,Developer,India
+2,Alice,30,Designer,USA
+3,Bob,28,Manager,UK
+4,Charlie,22,Intern,Canada
+5,Eva,27,Analyst,Australia
+
+# Products Data
+101,Laptop,1200,Electronics
+102,Smartphone,800,Electronics
+103,Chair,150,Furniture
+104,Desk,300,Furniture
+105,Headphones,100,Electronics
+
+# Orders Data
+201,1,101,1,1200
+202,2,103,2,300
+203,3,102,1,800
+204,4,105,3,300
+205,5,104,1,300
