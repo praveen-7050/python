@@ -5,8 +5,7 @@
 #     print(f"{Even_or_odd} is less than or Equal to 0 number please Enter the number which is Greater than 0") 
 # elif (Even_or_odd %2==0):
 #     print(f"{Even_or_odd} is an Even number")
-# else :
-#     print(f"{Even_or_odd} is an odd number")
+x#     print(f"{Even_or_odd} is an odd number")
 #     ----------------------------------------------------------
 
 # multiple = int(input("Enter the number you want to multiple num : "))
@@ -85,7 +84,7 @@
 
 #using temp variable  Using a Temporary Variable (Traditional Way)
 
-# a = 10
+# a = 22
 # b =20 
 
 # print(f"The value before  the swap of a is {a} and the value of b is {b}")
@@ -166,4 +165,10 @@
 # if word==word[::-1]:
 #     print(f"The {word} is palindrome")
 # else:
-#     print(f" The {word} is not an palindrome ")
+#     print(f" The {word} is not an palindrome "
+
+number = '12345'
+if number == 12345 :
+    print("is correct")
+else :
+    print("is wrong")
